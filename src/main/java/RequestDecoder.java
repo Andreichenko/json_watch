@@ -9,7 +9,6 @@ public class RequestDecoder extends Decoder{
 
     @Override
     void decode(JsonObject object) throws BackendException {
-
     }
 
     @Override
