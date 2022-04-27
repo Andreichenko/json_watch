@@ -27,5 +27,9 @@ public class BackendServer<ConnectionSendMessages> {
 
     public BackendServer(int port) {
         this.port = port;
+        this.started = false;
+        this.serverSocket = null;
+        this.executor = null;
+
     }
 }
